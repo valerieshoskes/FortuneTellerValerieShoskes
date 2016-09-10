@@ -43,7 +43,7 @@ namespace FortuneTellerValerieShoskes
             input = Console.ReadLine();
             QuitCheck(input);
             int month = int.Parse(input);
-            if (month < 0 || month > 12)
+            if (month < 1 || month > 12)
             {
                 moneyInTheBank = 0.00F;
 
